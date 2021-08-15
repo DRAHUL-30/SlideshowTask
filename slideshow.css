@@ -1,0 +1,42 @@
+body {
+    background-color: grey;
+}
+
+#image {
+    width: 1280px;
+    height: 720px;
+}
+
+.main_div {
+    margin-top: 5%;
+    margin-left: 400px;
+    width: 1280px;
+    height: 720px;
+    cursor: pointer;
+    position: relative;
+    border-radius: 2%;
+    overflow: hidden;
+}
+
+.arrows {
+    cursor: pointer;
+    padding: 10px;
+    opacity: 0;
+    display: flex;
+    position: absolute;
+    margin-top: -390px;
+}
+
+#left_arrow {
+    margin-left: 0px;
+    background-color: #d5d5d5;
+}
+
+#right_arrow {
+    margin-left: 1244px;
+    background-color: #d5d5d5;
+}
+
+.main_div:hover .arrows {
+    opacity: 1;
+}
